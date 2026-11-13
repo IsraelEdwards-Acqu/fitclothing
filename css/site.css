@@ -1045,11 +1045,17 @@
     position: absolute;
     top: 100%;
     left: 0;
-    right: 0;
+    width: 100%;
     background: white;
-    border-radius: 0 0 24px 24px;
-    box-shadow: 0 15px 35px rgba(0,0,0,.08);
     z-index: 9999;
+    display: block;
+    min-height: 300px;
+    border-top: 1px solid #eee;
+    box-shadow: 0 10px 30px rgba(0,0,0,.12);
+}
+
+.main-header {
+    position: relative;
 }
 .header-bottom {
     position: relative;

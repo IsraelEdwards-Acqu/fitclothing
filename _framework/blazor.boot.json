@@ -1,10 +1,10 @@
 {
   "mainAssemblyName": "fitclothing",
   "resources": {
-    "hash": "sha256-vYT31Up0iAdrTk6KMIhC+VD7iHkZZCVvuHIdAEYVBp8=",
+    "hash": "sha256-K4HcJaYbiCQE1Yyyro1YIGTJoCE00UB4ZQ3tkIXI1oo=",
     "fingerprinting": {
       "FITClothing.Shared.9x2u7agn7h.wasm": "FITClothing.Shared.wasm",
-      "fitclothing.1b7q9jk94k.wasm": "fitclothing.wasm",
+      "fitclothing.d8uwsxo9e8.wasm": "fitclothing.wasm",
       "Microsoft.AspNetCore.Components.Forms.9cufk1yft4.wasm": "Microsoft.AspNetCore.Components.Forms.wasm",
       "Microsoft.AspNetCore.Components.7ogcew9a56.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Web.7a8lrlu9ju.wasm": "Microsoft.AspNetCore.Components.Web.wasm",
@@ -33,7 +33,7 @@
       "System.ComponentModel.Primitives.oyad1pbc2n.wasm": "System.ComponentModel.Primitives.wasm",
       "System.ComponentModel.TypeConverter.6eqi37y716.wasm": "System.ComponentModel.TypeConverter.wasm",
       "System.ComponentModel.7celnv3t3i.wasm": "System.ComponentModel.wasm",
-      "System.Console.l3kpnv7i50.wasm": "System.Console.wasm",
+      "System.Console.t3nb8ylbfg.wasm": "System.Console.wasm",
       "System.Diagnostics.DiagnosticSource.38nxtv1osa.wasm": "System.Diagnostics.DiagnosticSource.wasm",
       "System.Diagnostics.Tracing.33nyt3ra4j.wasm": "System.Diagnostics.Tracing.wasm",
       "System.IO.Pipelines.3kh8l1hf6o.wasm": "System.IO.Pipelines.wasm",
@@ -88,7 +88,7 @@
     },
     "assembly": {
       "FITClothing.Shared.9x2u7agn7h.wasm": "sha256-TflWxAyVTA9SlqbwY2YTmKPlwZ+MjJTj3nOrFAArmiQ=",
-      "fitclothing.1b7q9jk94k.wasm": "sha256-gwP72frBYWfzFcVr/DEgvOpzsOG9hohikBBM1h/Ntls=",
+      "fitclothing.d8uwsxo9e8.wasm": "sha256-8x7U86+D6N7Jk5IrKDOjv25iNbV4ftazZLVtKciQkGg=",
       "Microsoft.AspNetCore.Components.Forms.9cufk1yft4.wasm": "sha256-p6DWDdsL/qrUaz7jhKkWOX6o8RTQ7dKD/d4bASrdkU8=",
       "Microsoft.AspNetCore.Components.7ogcew9a56.wasm": "sha256-mcLYLW1KOKiGoMHLOKvAhNSO3dcHCw47gjjpAg+gHFg=",
       "Microsoft.AspNetCore.Components.Web.7a8lrlu9ju.wasm": "sha256-L6wxT5bTS8Bkoss3GLLkiZKrS4jZaiSMwhq2Lj9Y/ZM=",
@@ -117,7 +117,7 @@
       "System.ComponentModel.Primitives.oyad1pbc2n.wasm": "sha256-wM3Lpwj3PvUnkryB9ifluWolRxzv744/1SS5aVKQ0jQ=",
       "System.ComponentModel.TypeConverter.6eqi37y716.wasm": "sha256-4mquG/mXIzWlJ5iVyVajJRgUzUaPTUTe4W+Jkh0KlYE=",
       "System.ComponentModel.7celnv3t3i.wasm": "sha256-KQGUDFCc4qSHISJThX7qbRFp5nOi+vVf6coW4AmcO9o=",
-      "System.Console.l3kpnv7i50.wasm": "sha256-AXUoJz5/zuxF9wY90Xxp9ZNoHAeaRDErOnp3Th5Ojcc=",
+      "System.Console.t3nb8ylbfg.wasm": "sha256-uSm3QoCL3xUqk1cDdjRAEk0MRo+tGJuqy8QMAbR5UXc=",
       "System.Diagnostics.DiagnosticSource.38nxtv1osa.wasm": "sha256-LeOtUmuveXOHtzKJGWrS0kudE6VKQlEAvyN0nbpvrV0=",
       "System.Diagnostics.Tracing.33nyt3ra4j.wasm": "sha256-XwKFGe6vQq5DcWYAGYgc54JfSpqkNoQcYFy/TEYp8WU=",
       "System.IO.Pipelines.3kh8l1hf6o.wasm": "sha256-47N2ckfT+7tPAgSsqM/nyb9+Njatu90CEq3FkNWKZu8=",
