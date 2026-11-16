@@ -78,13 +78,15 @@
 
 .mega-menu-panel {
     position: absolute;
+    top: 100%;
     left: 0;
     width: 100%;
     background: white;
-    border-top: 4px solid #ff6500;
-    box-shadow: 0 10px 30px rgba(0,0,0,.10);
     z-index: 9999;
-    padding: 2rem;
+    padding: 30px 50px;
+    border-top: 4px solid #ff6500;
+    box-shadow: 0 15px 35px rgba(0,0,0,.08);
+    min-height: auto;
 }
 
 .menu-column h4 {
@@ -2453,17 +2455,10 @@
     color: #777;
 }
 .mega-menu {
-    position: absolute;
-    left: 0;
-    width: 100%;
-    background: white;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 40px;
-    padding: 40px;
-    border-radius: 0 0 20px 20px;
-    box-shadow: 0 15px 35px rgba(0,0,0,.08);
-    z-index: 500;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 32px;
+    align-items: start;
 }
 
 .menu-column {
@@ -2473,7 +2468,10 @@
 }
 
     .menu-column h4 {
-        margin-bottom: 12px;
+        color: #ff6500;
+        font-size: 15px;
+        font-weight: 700;
+        margin-bottom: 10px;
     }
 
     .menu-column a {
@@ -2507,11 +2505,15 @@
     }
 
 .menu-link {
-    padding: .4rem 0;
-    text-decoration: none;
     color: #333;
+    text-decoration: none;
+    font-size: 14px;
     transition: .2s;
 }
+
+    .menu-link:hover {
+        color: #ff6500;
+    }
 
     .menu-link:hover {
         color: #e85c0d;

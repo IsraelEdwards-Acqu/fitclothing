@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "M0e3xcs4",
+  "version": "+4NoJXFX",
   "assets": [
     {
       "hash": "sha256-TflWxAyVTA9SlqbwY2YTmKPlwZ+MjJTj3nOrFAArmiQ=",
@@ -226,7 +226,7 @@ self.assetsManifest = {
       "url": "_framework/System.pvl3sv0rb6.wasm"
     },
     {
-      "hash": "sha256-D90D9L7w6zWlC9QaF487X8bAYKBkXanJ7dwPd3MPnu4=",
+      "hash": "sha256-Jy33AdvABCA2ihIVd9VQ7IiSlroLGtle+Ha7bejEhb0=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -250,8 +250,8 @@ self.assetsManifest = {
       "url": "_framework/dotnet.runtime.33y5wagaqd.js"
     },
     {
-      "hash": "sha256-cKAg18gQbcZT8mSRXvjGmfdEKUmMTGnHQ+pMZDfekZk=",
-      "url": "_framework/fitclothing.cx0vac9w71.wasm"
+      "hash": "sha256-1qH2WlA6zu+OI4w5OpQNdc8l2xs72O1H/jicUiTqwzA=",
+      "url": "_framework/fitclothing.26hduq4wa7.wasm"
     },
     {
       "hash": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -290,7 +290,7 @@ self.assetsManifest = {
       "url": "assets/images/promotions/workwear.png"
     },
     {
-      "hash": "sha256-J8EnHGLvvVLfUqAUkc1nPN9g4ofNVBhZBvKIs70EVU8=",
+      "hash": "sha256-QBbrzq0BMmRsZd9rSueohbuhagdqKkVkZGxCodQJ1nU=",
       "url": "css/site.css"
     },
     {
