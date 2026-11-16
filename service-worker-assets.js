@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "L1e3BLKm",
+  "version": "M0e3xcs4",
   "assets": [
     {
       "hash": "sha256-TflWxAyVTA9SlqbwY2YTmKPlwZ+MjJTj3nOrFAArmiQ=",
@@ -118,8 +118,8 @@ self.assetsManifest = {
       "url": "_framework/System.ComponentModel.TypeConverter.6eqi37y716.wasm"
     },
     {
-      "hash": "sha256-uSm3QoCL3xUqk1cDdjRAEk0MRo+tGJuqy8QMAbR5UXc=",
-      "url": "_framework/System.Console.t3nb8ylbfg.wasm"
+      "hash": "sha256-AXUoJz5/zuxF9wY90Xxp9ZNoHAeaRDErOnp3Th5Ojcc=",
+      "url": "_framework/System.Console.l3kpnv7i50.wasm"
     },
     {
       "hash": "sha256-LeOtUmuveXOHtzKJGWrS0kudE6VKQlEAvyN0nbpvrV0=",
@@ -226,7 +226,7 @@ self.assetsManifest = {
       "url": "_framework/System.pvl3sv0rb6.wasm"
     },
     {
-      "hash": "sha256-jNwAq2A4QRziRzEnnk1O+ytYJrN3/BweoGFeBBpDo54=",
+      "hash": "sha256-D90D9L7w6zWlC9QaF487X8bAYKBkXanJ7dwPd3MPnu4=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -250,8 +250,8 @@ self.assetsManifest = {
       "url": "_framework/dotnet.runtime.33y5wagaqd.js"
     },
     {
-      "hash": "sha256-8x7U86+D6N7Jk5IrKDOjv25iNbV4ftazZLVtKciQkGg=",
-      "url": "_framework/fitclothing.d8uwsxo9e8.wasm"
+      "hash": "sha256-cKAg18gQbcZT8mSRXvjGmfdEKUmMTGnHQ+pMZDfekZk=",
+      "url": "_framework/fitclothing.cx0vac9w71.wasm"
     },
     {
       "hash": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -290,7 +290,7 @@ self.assetsManifest = {
       "url": "assets/images/promotions/workwear.png"
     },
     {
-      "hash": "sha256-lAtYcwwN1F2/ZpxNQ1bn5lNtiMVZz9ytAvnF/wzAkHk=",
+      "hash": "sha256-J8EnHGLvvVLfUqAUkc1nPN9g4ofNVBhZBvKIs70EVU8=",
       "url": "css/site.css"
     },
     {

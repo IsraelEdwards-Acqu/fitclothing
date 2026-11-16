@@ -57,13 +57,48 @@
 }
 
 .header-bottom {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-top: 1px solid #ececec;
-    border-bottom: 1px solid #ececec;
-    padding: 18px 32px;
+    background: white;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
 }
+
+.nav-links a {
+    color: #1f2937;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+    .nav-links a:hover {
+        color: #ff6500;
+    }
+
+.nav-active a {
+    color: #ff6500;
+}
+
+.mega-menu-panel {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: white;
+    border-top: 4px solid #ff6500;
+    box-shadow: 0 10px 30px rgba(0,0,0,.10);
+    z-index: 9999;
+    padding: 2rem;
+}
+
+.menu-column h4 {
+    color: #ff6500;
+    font-weight: 700;
+}
+
+.menu-link {
+    color: #444;
+}
+
+    .menu-link:hover {
+        color: #ff6500;
+    }
 /*//top bar css
 */
 .top-bar {
@@ -135,10 +170,17 @@
 }
 
     .nav-links a {
-        color: black;
-        text-decoration: none;
+        color: #222;
         font-weight: 600;
     }
+
+        .nav-links a:hover {
+            color: #ff6a00;
+        }
+
+.nav-active {
+    color: #ff6a00;
+}
 
 .account-actions {
     display: flex;
@@ -1040,6 +1082,10 @@
         flex-direction: column;
         gap: 10px;
     }
+}
+.mega-menu-panel {
+    background: white;
+    border-top: 3px solid #ff6a00;
 }
 .mega-menu-panel {
     position: absolute;
@@ -2820,4 +2866,32 @@
     border: 1px solid #b7f0cb;
     border-radius: 10px;
     color: #0f5132;
+}
+.nav-links a {
+    color: #1f2937;
+    font-weight: 600;
+}
+
+    .nav-links a:hover {
+        color: #ff6200;
+    }
+
+.nav-active {
+    color: #ff6200;
+}
+
+.mega-menu-panel {
+    background: white;
+    border-top: 4px solid #ff6200;
+    box-shadow: 0 12px 30px rgba(0,0,0,.08);
+}
+
+.menu-column h4 {
+    color: #ff6200;
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+
+.menu-link:hover {
+    color: #ff6200;
 }
