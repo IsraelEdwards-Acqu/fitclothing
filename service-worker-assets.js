@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "fgeXNjZ3",
+  "version": "JT8gPbXM",
   "assets": [
     {
       "hash": "sha256-TflWxAyVTA9SlqbwY2YTmKPlwZ+MjJTj3nOrFAArmiQ=",
@@ -14,8 +14,8 @@ self.assetsManifest = {
       "url": "_framework/Microsoft.AspNetCore.Components.Forms.9cufk1yft4.wasm"
     },
     {
-      "hash": "sha256-L6wxT5bTS8Bkoss3GLLkiZKrS4jZaiSMwhq2Lj9Y/ZM=",
-      "url": "_framework/Microsoft.AspNetCore.Components.Web.7a8lrlu9ju.wasm"
+      "hash": "sha256-1orx4cdkSdVe5DMtwJqQEbGaNKOk4cIWALjATI3tIhw=",
+      "url": "_framework/Microsoft.AspNetCore.Components.Web.6gt7ymoca7.wasm"
     },
     {
       "hash": "sha256-rfLSvQs0z3TC3Llcm+wMbvrv7P6P/4z7VzDbdKT3vtk=",
@@ -170,8 +170,8 @@ self.assetsManifest = {
       "url": "_framework/System.ObjectModel.ty6zfvk7f2.wasm"
     },
     {
-      "hash": "sha256-/FSR2YYqPg4pFWrSU6Za1dB0kXf8qL0xLS/yfhfzZWw=",
-      "url": "_framework/System.Private.CoreLib.4meccdqsko.wasm"
+      "hash": "sha256-XgxSN+lwbPpnTF+93p8r4IJ92a3cA7se9GDrjW1foNM=",
+      "url": "_framework/System.Private.CoreLib.ecmxt8c0hm.wasm"
     },
     {
       "hash": "sha256-TItPxvX90xmKe0ySbPB6N6Pvt6erRoxsfNjgowwWTgE=",
@@ -226,7 +226,7 @@ self.assetsManifest = {
       "url": "_framework/System.pvl3sv0rb6.wasm"
     },
     {
-      "hash": "sha256-Jy33AdvABCA2ihIVd9VQ7IiSlroLGtle+Ha7bejEhb0=",
+      "hash": "sha256-o8041pX6Jz7xpD9HiG1tunKdKgUc/JPWtSpzkr0pEgs=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -238,8 +238,8 @@ self.assetsManifest = {
       "url": "_framework/dotnet.js"
     },
     {
-      "hash": "sha256-OyolNLuq6JTh5wWVjFpEFFfQxPQsVv2nbPXirNw4PmQ=",
-      "url": "_framework/dotnet.native.d2z9k2egva.wasm"
+      "hash": "sha256-Ps60KHmwnsPpTDivCQeHioaFB0qabky6xea3eC5EhwU=",
+      "url": "_framework/dotnet.native.auooij2wsk.wasm"
     },
     {
       "hash": "sha256-UKJrV2Vw9T2+Ej2io5bXwiKX51N5FLKrXwed7MYfXzM=",
@@ -250,8 +250,8 @@ self.assetsManifest = {
       "url": "_framework/dotnet.runtime.33y5wagaqd.js"
     },
     {
-      "hash": "sha256-1qH2WlA6zu+OI4w5OpQNdc8l2xs72O1H/jicUiTqwzA=",
-      "url": "_framework/fitclothing.26hduq4wa7.wasm"
+      "hash": "sha256-lUKGmjHepixzrtDNyZAgFfEft+rMeS64uSuIflMQg7Q=",
+      "url": "_framework/fitclothing.11v2tv244u.wasm"
     },
     {
       "hash": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -290,7 +290,7 @@ self.assetsManifest = {
       "url": "assets/images/promotions/workwear.png"
     },
     {
-      "hash": "sha256-OcJo+ZsJoUsg8RmeUxx+qwY2DB8e5Ko0StGxhfE+Zwc=",
+      "hash": "sha256-oZEVO0caPydnxjo3wjQ/qG+GaGyhDwSIessmyFMgyOU=",
       "url": "css/site.css"
     },
     {
