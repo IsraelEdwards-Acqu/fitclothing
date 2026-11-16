@@ -2897,3 +2897,25 @@
 .menu-link:hover {
     color: #ff6200;
 }
+.main-header {
+    position: relative;
+}
+
+.mega-menu-panel {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    padding: 24px 40px;
+    margin-top: 0;
+    border-top: 3px solid #ff6500;
+    box-shadow: 0 8px 24px rgba(0,0,0,.08);
+    z-index: 9999;
+}
+
+.mega-menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+}

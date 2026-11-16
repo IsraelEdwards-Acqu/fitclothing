@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "+4NoJXFX",
+  "version": "fgeXNjZ3",
   "assets": [
     {
       "hash": "sha256-TflWxAyVTA9SlqbwY2YTmKPlwZ+MjJTj3nOrFAArmiQ=",
@@ -290,7 +290,7 @@ self.assetsManifest = {
       "url": "assets/images/promotions/workwear.png"
     },
     {
-      "hash": "sha256-QBbrzq0BMmRsZd9rSueohbuhagdqKkVkZGxCodQJ1nU=",
+      "hash": "sha256-OcJo+ZsJoUsg8RmeUxx+qwY2DB8e5Ko0StGxhfE+Zwc=",
       "url": "css/site.css"
     },
     {
