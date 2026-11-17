@@ -1,10 +1,10 @@
 {
   "mainAssemblyName": "fitclothing",
   "resources": {
-    "hash": "sha256-GMt1Ezj70Jr3v83vPhlJAJlpdjYsSCnBl3fQ7PLtRhQ=",
+    "hash": "sha256-QNOicGE26xDQ9feYarV77Psd4gKYWM40n61IpE9b2h4=",
     "fingerprinting": {
       "FITClothing.Shared.dojab9izxf.wasm": "FITClothing.Shared.wasm",
-      "fitclothing.gn0bhs5of0.wasm": "fitclothing.wasm",
+      "fitclothing.yzh9mtt734.wasm": "fitclothing.wasm",
       "Microsoft.AspNetCore.Components.Forms.9cufk1yft4.wasm": "Microsoft.AspNetCore.Components.Forms.wasm",
       "Microsoft.AspNetCore.Components.7ogcew9a56.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Web.6gt7ymoca7.wasm": "Microsoft.AspNetCore.Components.Web.wasm",
@@ -88,7 +88,7 @@
     },
     "assembly": {
       "FITClothing.Shared.dojab9izxf.wasm": "sha256-4+6f2oYFtB78bbZJA6w2Rb0tJZ4ylc+D5Vl4p0n78IM=",
-      "fitclothing.gn0bhs5of0.wasm": "sha256-9DbqjSqbcE77ENUUOS1loAi62DJC6QvPyNFAVty/n5I=",
+      "fitclothing.yzh9mtt734.wasm": "sha256-okKlSwRzFieTzAXmlGqNTAIn9e4DI7A1ulQX+Wj3qS4=",
       "Microsoft.AspNetCore.Components.Forms.9cufk1yft4.wasm": "sha256-p6DWDdsL/qrUaz7jhKkWOX6o8RTQ7dKD/d4bASrdkU8=",
       "Microsoft.AspNetCore.Components.7ogcew9a56.wasm": "sha256-mcLYLW1KOKiGoMHLOKvAhNSO3dcHCw47gjjpAg+gHFg=",
       "Microsoft.AspNetCore.Components.Web.6gt7ymoca7.wasm": "sha256-1orx4cdkSdVe5DMtwJqQEbGaNKOk4cIWALjATI3tIhw=",

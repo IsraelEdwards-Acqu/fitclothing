@@ -149,6 +149,118 @@
     }
 }
 
+/* ====================================
+   FEATURED BRANDS - CLEAN LOGO GRID
+==================================== */
+
+.featured-brands-section {
+    padding: 64px 32px 58px;
+    background: #ffffff;
+}
+
+.featured-brands-section h2 {
+    margin: 0 0 30px;
+    color: #18202a;
+    font-size: clamp(2rem, 4vw, 2.8rem);
+    line-height: 1.1;
+    text-align: center;
+}
+
+.featured-brands-section .brands-grid {
+    display: grid;
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+    gap: 14px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.featured-brands-section .brand-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 0;
+    min-height: 70px;
+    padding: 10px 14px;
+    overflow: hidden;
+    background: #f3f4f5;
+    border: 1px solid #eceeef;
+    border-radius: 12px;
+    transition: background .2s ease, box-shadow .2s ease, transform .2s ease;
+}
+
+.featured-brands-section .brand-card:hover {
+    background: #ffffff;
+    box-shadow: 0 6px 16px rgba(24, 32, 42, .10);
+    transform: translateY(-2px);
+}
+
+.featured-brands-section .brand-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    max-width: none;
+    max-height: none;
+}
+
+.featured-brands-section .brand-logo img {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 42px;
+    object-fit: contain;
+}
+
+.featured-brands-section .brand-content {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.featured-brands-section .featured-brands-footer {
+    margin-top: 24px;
+    text-align: center;
+}
+
+.featured-brands-section .view-all-brands {
+    color: #18202a;
+    font-size: .9rem;
+    font-weight: 750;
+    text-decoration: none;
+}
+
+.featured-brands-section .view-all-brands:hover {
+    color: #e84f0e;
+}
+
+@media (max-width: 900px) {
+    .featured-brands-section .brands-grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 560px) {
+    .featured-brands-section {
+        padding: 46px 16px 42px;
+    }
+
+    .featured-brands-section .brands-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+    }
+
+    .featured-brands-section .brand-card {
+        min-height: 64px;
+    }
+}
+
 .wishlist-btn {
     position: absolute;
     top: 12px;
@@ -2124,5 +2236,154 @@
         width: 100%;
         box-sizing: border-box;
         justify-content: center;
+    }
+}
+
+/* Final featured-brand surface overrides */
+.featured-brands-section {
+    background: #ffffff;
+}
+
+.featured-brands-section h2 {
+    margin-bottom: 30px;
+    font-size: clamp(2rem, 4vw, 2.8rem);
+}
+
+/* ====================================
+   HEADER CONTACT ACTIONS
+==================================== */
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.action-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    color: #18202a;
+    font-size: .78rem;
+    line-height: 1.15;
+    white-space: nowrap;
+}
+
+.contact-action-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.contact-icon {
+    width: 15px;
+    height: 15px;
+    flex: 0 0 15px;
+    fill: none;
+    stroke: #f45b16;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1.8;
+}
+
+.action-item strong {
+    padding-left: 21px;
+    color: #f45b16;
+    font-size: .82rem;
+    font-weight: 800;
+}
+
+/* ====================================
+   DATABASE NEW ARRIVALS
+==================================== */
+
+.new-arrivals-section {
+    padding: 64px 32px 72px;
+    background: #ffffff;
+}
+
+.new-arrivals-section > .section-header,
+.new-arrivals-products,
+.new-arrivals-state {
+    width: min(100%, 1120px);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.new-arrivals-section > .section-header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 24px;
+}
+
+.new-arrivals-section .section-header h2 {
+    margin: 4px 0 0;
+    color: #18202a;
+    font-size: clamp(2rem, 4vw, 2.8rem);
+    line-height: 1.1;
+}
+
+.new-arrivals-section .section-subtitle {
+    color: #e84f0e;
+    font-size: .78rem;
+    font-weight: 800;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+}
+
+.new-arrivals-products {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 18px;
+}
+
+.new-arrivals-products .product-card {
+    min-width: 0;
+}
+
+.new-arrivals-state {
+    padding: 38px 20px;
+    color: #6b7280;
+    background: #f7f8f9;
+    border: 1px solid #e6e8eb;
+    border-radius: 14px;
+    text-align: center;
+}
+
+@media (max-width: 1050px) {
+    .new-arrivals-products {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 800px) {
+    .header-actions {
+        gap: 12px;
+    }
+
+    .new-arrivals-products {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 560px) {
+    .header-actions {
+        display: none;
+    }
+
+    .new-arrivals-section {
+        padding: 44px 16px 52px;
+    }
+
+    .new-arrivals-section > .section-header {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .new-arrivals-products {
+        grid-template-columns: 1fr;
+        gap: 16px;
     }
 }
