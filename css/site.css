@@ -748,9 +748,9 @@
 
 .products-row {
     display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(4,minmax(0,1fr));
     gap: 24px;
-    overflow: visible;
+    margin-top: 24px;
 }
 
 .product-card {
@@ -2387,3 +2387,296 @@
         gap: 16px;
     }
 }
+
+/* ====================================
+   FOOTER SOCIAL ICONS
+==================================== */
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.social-icons a {
+    display: grid;
+    width: 30px;
+    height: 30px;
+    place-items: center;
+    color: #ff5a1f;
+    border-radius: 50%;
+    transition: color .2s ease, background .2s ease, transform .2s ease;
+}
+
+.social-icons a:hover {
+    color: #ffffff;
+    background: #ff5a1f;
+    transform: translateY(-2px);
+}
+
+.social-icons svg {
+    width: 18px;
+    height: 18px;
+    fill: currentColor;
+    stroke: currentColor;
+    stroke-width: 1.8;
+}
+
+.social-icons svg rect,
+.social-icons svg circle {
+    fill: none;
+}
+
+.social-icons svg .social-icon-fill {
+    fill: currentColor;
+    stroke: none;
+}
+
+/* ====================================
+   FLOATING WHATSAPP CONTACT
+==================================== */
+
+.floating-whatsapp {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    z-index: 10000;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: #18202a;
+    text-decoration: none;
+}
+
+.floating-whatsapp-icon {
+    display: grid;
+    width: 58px;
+    height: 58px;
+    place-items: center;
+    overflow: hidden;
+    background: #ffffff;
+    border: 3px solid #25d366;
+    border-radius: 50%;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, .20);
+    animation: whatsapp-pulse 2.4s infinite;
+}
+
+.floating-whatsapp-icon img {
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+}
+
+.floating-whatsapp-message {
+    max-width: 0;
+    overflow: hidden;
+    padding: 0;
+    color: #18202a;
+    background: #ffffff;
+    border-radius: 999px;
+    font-size: .82rem;
+    font-weight: 700;
+    white-space: nowrap;
+    opacity: 0;
+    transition: max-width .25s ease, padding .25s ease, opacity .25s ease;
+}
+
+.floating-whatsapp:hover .floating-whatsapp-message,
+.floating-whatsapp:focus-visible .floating-whatsapp-message {
+    max-width: 220px;
+    padding: 10px 14px;
+    box-shadow: 0 5px 16px rgba(0, 0, 0, .12);
+    opacity: 1;
+}
+
+.floating-whatsapp:focus-visible {
+    outline: 3px solid rgba(37, 211, 102, .35);
+    outline-offset: 4px;
+}
+
+@keyframes whatsapp-pulse {
+    0%,
+    100% {
+        box-shadow: 0 8px 22px rgba(0, 0, 0, .20), 0 0 0 0 rgba(37, 211, 102, .35);
+    }
+
+    50% {
+        box-shadow: 0 8px 22px rgba(0, 0, 0, .20), 0 0 0 10px rgba(37, 211, 102, 0);
+    }
+}
+
+@media (max-width: 560px) {
+    .floating-whatsapp {
+        right: 16px;
+        bottom: 16px;
+    }
+
+    .floating-whatsapp-message {
+        display: none;
+    }
+}
+.products-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.product-card {
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    overflow: hidden;
+    padding: 16px;
+    transition: .2s;
+}
+
+    .product-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 10px 25px rgba(0,0,0,.08);
+    }
+.category-hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background: #c77ec5;
+    border-radius: 28px;
+    padding: 60px;
+    overflow: hidden;
+    min-height: 340px;
+    margin-bottom: 50px;
+}
+
+.category-label {
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 999px;
+    background: rgba(255,255,255,.15);
+    color: black;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero-left h1 {
+    color: black;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 1.05;
+    margin-bottom: 18px;
+}
+
+.hero-left p {
+    color: black;
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 500px;
+    margin-bottom: 28px;
+}
+
+.hero-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 16px 28px;
+    background: #18202a;
+    color: white;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.hero-right {
+    display: flex;
+    justify-content: center;
+}
+
+    .hero-right img {
+        width: 100%;
+        max-width: 420px;
+        object-fit: contain;
+    }
+
+.hero-left h1 {
+    font-size: 56px;
+    line-height: 1.1;
+    font-weight: 800;
+}
+
+.hero-left p {
+    font-size: 18px;
+    max-width: 500px;
+}
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    gap: 24px;
+}
+
+.category-card {
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+}
+.category-breadcrumb {
+    max-width: 1400px;
+    margin: 20px auto;
+    color: #6b7280;
+    font-size: 14px;
+}
+
+    .category-breadcrumb a {
+        color: #6b7280;
+        text-decoration: none;
+    }
+@media(max-width:1100px) {
+    .products-row {
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media(max-width:800px) {
+    .products-row {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media(max-width:500px) {
+    .products-row {
+        grid-template-columns: 1fr;
+    }
+}
+.category-page-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 24px;
+}
+.category-breadcrumb {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #6b7280;
+}
+
+    .category-breadcrumb a {
+        color: #6b7280;
+        text-decoration: none;
+    }
+.category-page-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.section-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+    .section-heading h2 {
+        font-size: 36px;
+        font-weight: 800;
+        color: #18202a;
+    }

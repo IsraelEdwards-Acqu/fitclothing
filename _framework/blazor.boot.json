@@ -1,10 +1,10 @@
 {
   "mainAssemblyName": "fitclothing",
   "resources": {
-    "hash": "sha256-QNOicGE26xDQ9feYarV77Psd4gKYWM40n61IpE9b2h4=",
+    "hash": "sha256-OgduGgEI18sT4oKwUm+6GRjFxLzg68QTIJz7k6MsCzg=",
     "fingerprinting": {
       "FITClothing.Shared.dojab9izxf.wasm": "FITClothing.Shared.wasm",
-      "fitclothing.yzh9mtt734.wasm": "fitclothing.wasm",
+      "fitclothing.66o7nzv90c.wasm": "fitclothing.wasm",
       "Microsoft.AspNetCore.Components.Forms.9cufk1yft4.wasm": "Microsoft.AspNetCore.Components.Forms.wasm",
       "Microsoft.AspNetCore.Components.7ogcew9a56.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Web.6gt7ymoca7.wasm": "Microsoft.AspNetCore.Components.Web.wasm",
@@ -46,7 +46,7 @@
       "System.Net.NetworkInformation.eckasbpz14.wasm": "System.Net.NetworkInformation.wasm",
       "System.Net.Primitives.3ewd6897n3.wasm": "System.Net.Primitives.wasm",
       "System.ObjectModel.ty6zfvk7f2.wasm": "System.ObjectModel.wasm",
-      "System.Private.CoreLib.ecmxt8c0hm.wasm": "System.Private.CoreLib.wasm",
+      "System.Private.CoreLib.60ggvnd848.wasm": "System.Private.CoreLib.wasm",
       "System.Private.Uri.qmx224if5e.wasm": "System.Private.Uri.wasm",
       "System.Runtime.InteropServices.JavaScript.0rik6xqk51.wasm": "System.Runtime.InteropServices.JavaScript.wasm",
       "System.Runtime.InteropServices.mr2xdrckz3.wasm": "System.Runtime.InteropServices.wasm",
@@ -61,7 +61,7 @@
       "System.Transactions.Local.aw4l4rfdeg.wasm": "System.Transactions.Local.wasm",
       "System.pvl3sv0rb6.wasm": "System.wasm",
       "dotnet.native.kvgpc0zynl.js": "dotnet.native.js",
-      "dotnet.native.auooij2wsk.wasm": "dotnet.native.wasm",
+      "dotnet.native.cdknbqdp1d.wasm": "dotnet.native.wasm",
       "dotnet.js": "dotnet.js",
       "dotnet.runtime.33y5wagaqd.js": "dotnet.runtime.js",
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
@@ -75,7 +75,7 @@
       "dotnet.runtime.33y5wagaqd.js": "sha256-MbxvjQiLd0brZSb4DHed2hQtAF5pbvZt/KJigzjZ70w="
     },
     "wasmNative": {
-      "dotnet.native.auooij2wsk.wasm": "sha256-Ps60KHmwnsPpTDivCQeHioaFB0qabky6xea3eC5EhwU="
+      "dotnet.native.cdknbqdp1d.wasm": "sha256-IJaD9Irk6ILtHbM1nYEqE4nfkQtWJ1JpQ5dHK9i6Qi4="
     },
     "icu": {
       "icudt_CJK.tjcz0u77k5.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -83,12 +83,12 @@
       "icudt_no_CJK.lfu7j35m59.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "coreAssembly": {
-      "System.Private.CoreLib.ecmxt8c0hm.wasm": "sha256-XgxSN+lwbPpnTF+93p8r4IJ92a3cA7se9GDrjW1foNM=",
+      "System.Private.CoreLib.60ggvnd848.wasm": "sha256-+j+7lqUYoM6qE0N4Mxqf4a15FI6pP/LEniJjUj5M9lk=",
       "System.Runtime.InteropServices.JavaScript.0rik6xqk51.wasm": "sha256-FNq6fluHjD+BM7OQ49KWLx1PCzE00KhLysYxIWvz61c="
     },
     "assembly": {
       "FITClothing.Shared.dojab9izxf.wasm": "sha256-4+6f2oYFtB78bbZJA6w2Rb0tJZ4ylc+D5Vl4p0n78IM=",
-      "fitclothing.yzh9mtt734.wasm": "sha256-okKlSwRzFieTzAXmlGqNTAIn9e4DI7A1ulQX+Wj3qS4=",
+      "fitclothing.66o7nzv90c.wasm": "sha256-Hoka1fKWuokKyAO9BTG3jQtYkK83Cro+sYRDMj9WGPE=",
       "Microsoft.AspNetCore.Components.Forms.9cufk1yft4.wasm": "sha256-p6DWDdsL/qrUaz7jhKkWOX6o8RTQ7dKD/d4bASrdkU8=",
       "Microsoft.AspNetCore.Components.7ogcew9a56.wasm": "sha256-mcLYLW1KOKiGoMHLOKvAhNSO3dcHCw47gjjpAg+gHFg=",
       "Microsoft.AspNetCore.Components.Web.6gt7ymoca7.wasm": "sha256-1orx4cdkSdVe5DMtwJqQEbGaNKOk4cIWALjATI3tIhw=",

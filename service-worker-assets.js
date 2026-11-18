@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "49oFYQWg",
+  "version": "oM2x2DnQ",
   "assets": [
     {
       "hash": "sha256-4+6f2oYFtB78bbZJA6w2Rb0tJZ4ylc+D5Vl4p0n78IM=",
@@ -170,8 +170,8 @@ self.assetsManifest = {
       "url": "_framework/System.ObjectModel.ty6zfvk7f2.wasm"
     },
     {
-      "hash": "sha256-XgxSN+lwbPpnTF+93p8r4IJ92a3cA7se9GDrjW1foNM=",
-      "url": "_framework/System.Private.CoreLib.ecmxt8c0hm.wasm"
+      "hash": "sha256-+j+7lqUYoM6qE0N4Mxqf4a15FI6pP/LEniJjUj5M9lk=",
+      "url": "_framework/System.Private.CoreLib.60ggvnd848.wasm"
     },
     {
       "hash": "sha256-PjceYwElssmYHOl5SvnXXt9jvTCP8qCWIUXc0MzyddE=",
@@ -226,7 +226,7 @@ self.assetsManifest = {
       "url": "_framework/System.pvl3sv0rb6.wasm"
     },
     {
-      "hash": "sha256-opzKxy+An8q75u04ZFdah/bfZdokYqqC8nptCQP7D7U=",
+      "hash": "sha256-uHd3g/JzBCoTSrB4Z0GBTmNt+OVci+Wf7Gu71/7ElB8=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -238,8 +238,8 @@ self.assetsManifest = {
       "url": "_framework/dotnet.js"
     },
     {
-      "hash": "sha256-Ps60KHmwnsPpTDivCQeHioaFB0qabky6xea3eC5EhwU=",
-      "url": "_framework/dotnet.native.auooij2wsk.wasm"
+      "hash": "sha256-IJaD9Irk6ILtHbM1nYEqE4nfkQtWJ1JpQ5dHK9i6Qi4=",
+      "url": "_framework/dotnet.native.cdknbqdp1d.wasm"
     },
     {
       "hash": "sha256-UKJrV2Vw9T2+Ej2io5bXwiKX51N5FLKrXwed7MYfXzM=",
@@ -250,8 +250,8 @@ self.assetsManifest = {
       "url": "_framework/dotnet.runtime.33y5wagaqd.js"
     },
     {
-      "hash": "sha256-okKlSwRzFieTzAXmlGqNTAIn9e4DI7A1ulQX+Wj3qS4=",
-      "url": "_framework/fitclothing.yzh9mtt734.wasm"
+      "hash": "sha256-Hoka1fKWuokKyAO9BTG3jQtYkK83Cro+sYRDMj9WGPE=",
+      "url": "_framework/fitclothing.66o7nzv90c.wasm"
     },
     {
       "hash": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -290,7 +290,7 @@ self.assetsManifest = {
       "url": "assets/images/promotions/workwear.png"
     },
     {
-      "hash": "sha256-gddAGlKyBxN0dkYKK875RdLG6a/oGLKT2MC/bdA2xRE=",
+      "hash": "sha256-ORPAHNzpq3Az2ThSSVELbNYQzQIsUeDK5JSf/icuo5M=",
       "url": "css/site.css"
     },
     {
